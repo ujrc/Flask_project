@@ -37,7 +37,7 @@ def logout():
     session.pop('name',None)
     flash("Goodbye!")
     return redirect(url_for('users.login'))
-
+"""
 @users_blueprint.route('/', methods=['GET','POST'])
 def login():
     error=None
@@ -56,7 +56,7 @@ def login():
             else:
                 error='Invalid username or password.'
     return render_template('login.html',form=form,error=error)
-
+"""
 @users_blueprint.route('/register/',methods=['GET','POST'])
 def register():
     error=None
