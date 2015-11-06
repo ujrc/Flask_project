@@ -42,7 +42,7 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *,cover
-
+*.py~
 # Translations
 *.mo
 *.pot
@@ -55,3 +55,4 @@ docs/_build/
 
 # PyBuilder
 target/
+Venv
