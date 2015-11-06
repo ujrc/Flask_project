@@ -8,6 +8,7 @@ script:
 - nosetests
 
 #deploy
+
 deploy:
   provider: heroku
   api_key:
