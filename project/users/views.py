@@ -38,7 +38,7 @@ def logout():
     flash("Goodbye!")
     return redirect(url_for('users.login'))
 
-@users_blueprint.route('/', methods=['GET','POST'])
+"""@users_blueprint.route('/', methods=['GET','POST'])
 def login():
     error=None
     form=LoginForm(request.form)
@@ -77,3 +77,4 @@ def register():
                 error='That username and/or email already exist.'
                 return render_template('register.html',form=form, error=error)
     return render_template('register.html',form=form,error=error)
+"""
